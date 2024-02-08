@@ -1,0 +1,252 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer utilities {
+    .rtl {
+      direction: rtl;
+    }
+  }
+  
+  @font-face {
+    font-family: Vazir-Medium;
+    src: url(../../public/style/fonts/vazir-font-v29.1.0/Vazir-Medium.woff) format('woff');
+  }
+  @font-face {
+    font-family:Vazir-Bol;
+    src: url(../../public/style/fonts/vazir-font-v29.1.0/Vazir-Medium.woff) format('woff');
+  }
+  @font-face {
+    font-family:Vazir-Regular;
+    src: url(../../public/style/fonts/vazir-font-v29.1.0/Vazir-Medium.woff) format('woff');
+  }
+  @font-face {
+    font-family:Vazir-Thin;
+    src: url(../../public/style/fonts/vazir-font-v29.1.0/Vazir-Medium.woff) format('woff');
+  }
+  *{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family:'Vazir-Regular' , sans-serif;
+    
+  }
+.Toastify__toast-body{
+    /* font-family: 'yekanMedium' !important; */
+  }
+.Toastify__toast--success {
+    text-align: center !important;
+    font-size: 15px !important;
+    font-weight: 500;
+    
+  
+}
+.Toastify__toast {
+    text-align: center !important;
+    font-size: 15px !important;
+    font-weight: 500;
+    width: 300px !important;
+}
+
+.Hero_con{
+    width: 100vw;
+    height: 24vh;
+    background-image:url("../../public//images/2.png") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.9;
+}
+.Hero_con1{
+    background-image:url("../../public//images/2.png") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.9;
+}
+
+.hero_img{
+    width: 50%;
+    height: 40vh;
+    position: relative;
+    margin-left: auto; 
+    margin-right: auto;
+    justify-content: center;
+    align-items: end;
+    display: flex;
+   
+}
+.hero_img img{
+    width: 100%;
+    height: auto;
+}
+.for_app{
+    background-image:url("../../public/images/4.png") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* height: fit-content; */
+}
+.for_app1{
+    background-image:url("../../public/images/4.png") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+.menu_con{
+    /* background-image:url("../../public/images/4.png") ; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+}
+.menulist_con{
+    padding-top: 20vh;
+    width: 50vw;
+}
+.menu_item{
+    padding: 10px 20px;
+    background: #E0C9AC;
+    color: #652D0D;
+    font-size: 30px;
+    text-align: center;
+    border-radius: 3px;
+    cursor: pointer;
+}
+table, th, td {
+    border: 2px solid #9f79629c;
+    border-collapse: collapse;
+    border-radius: 10px;
+    color: #652D0D;
+    background: none;
+    font-family:'Vazir-Regular' , sans-serif;
+  }
+  /* .tableCard th, td {
+    border: none !important;
+  } */
+  /* .tableCard{
+    border:  none !important;
+  } */
+  .tableRowCard{
+   height: 50px !important;
+  }
+
+
+ /* manual style for table mui  */
+/* .muirtl-j204z7-MuiFormControlLabel-root {
+    display: flex;
+    flex-flow: row-reverse;
+} */
+
+.muirtl-1dr8bk0-MuiInputBase-root-MuiOutlinedInput-root-MuiSelect-root{
+    text-align: center;
+}
+.muirtl-11xur9t-MuiPaper-root-MuiTableContainer-root{
+    display: flex;
+    justify-content: center;
+}
+#head_{
+    padding: 10px;
+}
+#table_order{
+    display: flex;
+    justify-content: start;
+    background: none;
+}
+#menu_1{
+    justify-content: flex-end;
+}
+#rtl_side{
+    background-image:url("../../public/images/white-concrete-wall 5.png") ;
+    background-repeat: no-repeat;
+    background-size: cover;   
+}
+#table_ic{
+    background: none;
+    box-shadow:none;
+}
+.swiper-pagination-bullet {
+    padding: 10px;
+    opacity: 1;
+}
+.swiper-slide {
+    margin-bottom: 70px;
+}
+.sliderBt{
+    position: absolute;
+    left: 200px;
+    bottom: 120px;
+    color: white;
+}
+/* //////////////// */
+.parent {
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+  .image1 {
+    position: relative;
+    top: 0;
+    left: 0;
+    border: 1px red solid;
+  }
+  .image2 {
+    position: absolute;
+    top: 30px;
+    left: 50%;
+    border: 1px green solid;
+  }
+.Active{
+    background-color: #954d2376;
+}
+
+@media  screen and (min-width: 600px) {
+  .modalResponsive{
+    width: 50% !important;
+  }
+  .tableCardPage {
+    width: 50% !important;
+  }
+}
+@media  screen and (max-width: 600px) {
+  .muirtl-11h2o52-MuiTableCell-root{
+    padding: 2px 4px !important;
+  }
+  .muirtl-t8uymh-MuiTableCell-root{
+    padding: 2px 4px !important;
+  }
+  .swiper-pagination-bullet {
+    padding: 8px;
+}
+.swiper-slide {
+    margin-bottom: 40px;
+}
+}
+#w3review{
+  resize: none;
+  width: full;
+  background: none;
+  border: 1px solid #652D0D;
+ 
+  padding: 10px;
+}
+#w3review .input:focus {
+  outline: none !important;
+  border: 1px solid #451e08 !important;
+}
+textarea:focus { 
+  outline: none !important;
+  border: 1px solid #451e08 ;
+  
+}
+.muirtl-12wnr2w-MuiButtonBase-root-MuiCheckbox-root.Mui-checked, .muirtl-12wnr2w-MuiButtonBase-root-MuiCheckbox-root.MuiCheckbox-indeterminate{
+  color: #451e08;
+}
+#badeg {
+  font-size: 20px;
+}
+.swiper-pagination-bullet-active {
+  background-color: #451e08 !important;
+}
